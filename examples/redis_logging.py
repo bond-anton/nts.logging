@@ -1,3 +1,5 @@
+"""AsyncRedisHandler usage example."""
+
 # examples/redis_logging.py
 
 import logging
@@ -6,6 +8,7 @@ from nts.logging.redis_handler import AsyncRedisHandler
 
 
 async def main():
+    """Main function."""
     # Initialize a logger
     logger = logging.getLogger("ExampleRedisLogger")
     logger.setLevel(logging.DEBUG)

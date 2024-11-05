@@ -1,3 +1,5 @@
+"""AsyncBaseHandler and AsyncRedisHandler simultaneous usage example."""
+
 # examples/console_and_redis_logging.py
 
 import logging
@@ -7,6 +9,7 @@ from nts.logging.redis_handler import AsyncRedisHandler
 
 
 async def main():
+    """Main function."""
     # Initialize a logger
     logger = logging.getLogger("CombinedLogger")
     logger.setLevel(logging.DEBUG)

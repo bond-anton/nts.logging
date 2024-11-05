@@ -1,3 +1,5 @@
+"""AsyncBaseHandler usage example."""
+
 # examples/basic_console_logging.py
 
 import logging
@@ -6,6 +8,7 @@ from nts.logging import AsyncBaseHandler
 
 
 async def main():
+    """Main function."""
     # Initialize a logger
     logger = logging.getLogger("ExampleLogger")
     logger.setLevel(logging.DEBUG)

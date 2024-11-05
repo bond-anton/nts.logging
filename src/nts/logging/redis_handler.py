@@ -49,7 +49,7 @@ class AsyncRedisHandler(AsyncBaseHandler):
         service_name: Union[str, None] = None,
         worker_id: Union[int, None] = None,
         redis_config: Union[RedisConfig, None] = None,
-        **kwargs
+        **kwargs,
     ) -> None:
         """
         Initialize the asynchronous Redis logging handler.
