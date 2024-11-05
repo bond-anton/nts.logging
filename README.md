@@ -17,7 +17,7 @@ For detailed descriptions of each example, refer to the [Examples README](./exam
 
 ## Requirements
 
-- Python 3.7+
+- Python 3.9+
 - Additional dependencies for specific backends:
   - **Redis support**: `redis.asyncio` (`pip install nts.logging[redis]`)
   - **PostgreSQL support**: *Coming Soon!* `asyncpg` (`pip install nts.logging[postgres]`)
